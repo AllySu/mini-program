@@ -1,0 +1,14 @@
+<!--index.wxml-->
+
+<view class="gy1">
+    <image src="/image/a23.jpg"></image>
+</view>
+
+
+<view class="gy">
+    <image src="/image/k2.png"></image>
+</view>
+
+<view class="goods-box">
+    <button class="goods-operation" bindtap="teltoUs">立即联系我们</button>
+</view>
