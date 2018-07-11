@@ -12,7 +12,7 @@ Page({
   // 事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
-      url: '../logs/logs'
+      url: '../logs/logs'  // 类似路由或链接a跳转
     })
   },
   onLoad: function () {

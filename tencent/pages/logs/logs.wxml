@@ -1,6 +1,6 @@
 <!--logs.wxml-->
 <view class="container log-list">
-  <block wx:for="{{logs}}" wx:for-item="log">
+  <block wx:for="{{logs}}" wx:for-item="log">   <!-- 列表：数组logs和单项log分开书写 -->
     <text class="log-item">{{index + 1}}. {{log}}</text>
   </block>
 </view>

@@ -2,7 +2,7 @@
 <view class="container">
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
+    <block wx:else>    <!-- 组件：点击头像转到另一个页面 -->
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>  <!-- 用户头像 -->
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>   <!-- 用户昵称 -->
     </block>
