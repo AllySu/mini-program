@@ -13,7 +13,7 @@ Page( {
 
   teltoUs: function () {
     wx.makePhoneCall({
-      phoneNumber: '123456789011' // 仅为示例，并非真实的电话号码
+      phoneNumber: '12345678901' // 非真实的电话号码
     })
   },
   onShareAppMessage: function () {

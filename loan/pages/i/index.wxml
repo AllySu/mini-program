@@ -1,29 +1,24 @@
 <!--index.wxml-->
-
 <view class="gy1">
     <image src="/image/timg1.jpg"></image>
 </view>
- <view class="text">
-        <view class="line_y"></view>
-        <text>关于我们</text>
-    </view>
+<view class="text">
+    <view class="line_y"></view>
+    <text>关于我们</text>
+</view>
 <view class="gy2">
     <image src="/image/g1.jpg"></image>
 </view>
-
-
-
 <view class="gy">
     <image src="/image/d2.jpg"></image>
 </view>
 <view class="IndexList">
-  <view>
-    <image src="../../image/weixin.png" class="weixinIco" mode="widthFix"></image>
-    <text class="map">微信：123456789011 </text>
-  </view>
-  <view bindtap="callmeTap">
-    <image src="../../image/tel.png" class="telIco" mode="widthFix"></image>
-    <text class="tel" bindtap="teltoUs">电话：123456789011 （点击拨号）</text>
-  </view>
-
+    <view>
+        <image src="../../image/weixin.png" class="weixinIco" mode="widthFix"></image>
+        <text class="map">微信：12345678901 </text>
     </view>
+    <view>
+        <image src="../../image/tel.png" class="telIco" mode="widthFix"></image>
+        <text class="tel" bindtap="teltoUs">电话：12345678901 （点击拨号）</text>
+    </view>
+</view>

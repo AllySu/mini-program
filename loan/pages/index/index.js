@@ -68,7 +68,7 @@ Page( {
 
   calling: function () {
     wx.makePhoneCall({
-      phoneNumber: '123456789011',
+      phoneNumber: '12345678901',
     })
   },
 

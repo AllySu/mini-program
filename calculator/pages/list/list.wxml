@@ -1,0 +1,8 @@
+<view class="content">
+  <image src="{{picbg}}" class="pic"></image>
+  <view style="position: absolute;z-index: 1;">
+ <block wx:for="{{logs}}" wx:for-item="log" wx:key="unique">
+    <view class="item">{{log}}</view>
+ </block>
+</view>
+</view>

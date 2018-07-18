@@ -1,20 +1,13 @@
 <!--index.wxml-->
-<import src="../../template/item-template.wxml"/>
+<import src="../../template/item-template.wxml" />
 <view class="container">
-
-
-
-<view class="common_banner"> <image mode="widthFix" src="/image/timg.jpg"></image></view>
-
-
-
-<view class="common_banner"> <image mode="widthFix" src="/image/t1.jpg"></image></view>
-
-
-	<view class="goods-box">
-
- <button class="goods-operation" bindtap="calling">立即联系我们</button>
+    <view class="common_banner">
+        <image mode="widthFix" src="/image/timg.jpg"></image>
+    </view>
+    <view class="common_banner">
+        <image mode="widthFix" src="/image/t1.jpg"></image>
+    </view>
+    <view class="goods-box">
+        <button class="goods-operation" bindtap="calling">立即联系我们</button>
+    </view>
 </view>
-
-</view>
-
