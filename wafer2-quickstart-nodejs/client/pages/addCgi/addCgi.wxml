@@ -9,7 +9,7 @@
             <text class="request-text">期望输出：{"code":0,"data":{"msg":"Hello World"}}</text>
         </view>
         <view class="list-item" wx:if="{{requestResult}}">
-            <text class="request-text">{{'请求得到的结果：' + requestResult}}</text>
+            <text class="request-text">{{'请求得到的结果/服务器返回的结果：' + requestResult}}</text>
         </view>
     </view>
 
