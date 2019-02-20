@@ -1,0 +1,5 @@
+微信小程序中，编译后进行预览突然报错
+Error: tunneling socket could not be established, cause=connect ECO
+经查找资料发现可以通过以下方式
+1.找到开发工具中 “工具 - 设置 - 代理设置”，选择不使用任何代理即可
+2.关闭开发工具，重启！
